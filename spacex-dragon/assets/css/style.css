@@ -1,0 +1,107 @@
+.primary{
+    background-image:url("../../assets/img/Dragon-Logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    color:red;
+    text-align: center;
+
+}
+.primary img{
+ display: block;
+ 
+ margin-right: auto;
+ width: 500px;
+ height: 50px;
+}
+.primary li{
+    list-style-type: none;
+}
+.primary a:link, .primary a:visited{
+    color: gray;
+}
+#articles{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom:3px solid #c0c0c0;
+    border-top:3px solid #c0c0c0;
+   padding-bottom:2.6rem;
+   background-color:grey;
+  
+}
+#articles.post{
+    width:100%;
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+    transition:.5s;
+    border-radius: 10px;
+    font-size:.9rem;
+}
+#articles.post figure{
+    margin:1px;
+}
+#articles article img{
+    border-radius:4px;
+    margin:auto;
+   
+}
+#articles h2{
+    text-align:center;
+}
+#content{
+    border-top:3px;
+}
+.post li{
+    padding:5px;
+    list-style-type: none;
+    text-align:center;
+}
+#content-f{
+    border:3px;
+}
+#content-f li{
+     display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-bottom:3px solid #c0c0c0;
+    border-top:3px solid #c0c0c0;
+    
+   background-color:orange;
+}
+
+#content-f p{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-bottom:1px solid #c0c0c0;
+    border-top:1px solid #c0c0c0;
+   background-color:grey;
+}
+#content-h {
+    background-color:grey;
+    padding-bottom:4rem;
+}
+#articles-h p{
+    background-color:grey;
+    padding-bottom:4rem;
+}
+#articles-h table{
+   
+    margin-left:auto;
+    border-bottom:3px solid #c0c0c0;
+    border-top:3px solid #c0c0c0;
+    padding-bottom:2.6rem;
+    background-color:grey;
+}
+#articles-h caption{
+    font-weight: bold;
+    color:blue;
+    
+}
+#articles-h table th{
+    color:red;
+    background-color:black;
+}
+#articles-h table td{
+    color:yellow;
+    background-color:green;
+}
