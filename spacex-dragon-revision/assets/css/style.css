@@ -10,12 +10,16 @@
  display: block;
  
  margin-right: auto;
- width: 480px;
+ width: 500px;
  height: 50px;
 }
-
+.primary li{
+    list-style-type: none;
+}
 .primary a:link, .primary a:visited{
-    color: grey;
+    color: red;
+    font-size:30px;
+    padding: 40px;
 }
 #articles{
     display:flex;
@@ -102,4 +106,7 @@
 #articles-h table td{
     color:yellow;
     background-color:green;
+}
+#content, #content-h, #content-f{
+    max-width: 75%;
 }
